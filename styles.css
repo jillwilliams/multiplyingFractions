@@ -1,0 +1,199 @@
+body {
+    background-image: linear-gradient(gray, tan);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-size: 1.5rem;;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  /* TITLE:  "Multiplying Fractions" */
+#h2 {
+    font-size: 2rem;
+    color: black;
+    text-shadow: 1px 1px 1px purple;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+  /* TEXT:   INTRO PARAGRAPH: "IN ORDER TO MULTIPLY TWO FRACTIONS...." */
+#h3 {
+    font-size:  1.5rem;
+    text-shadow: 1px 1px 1px #FF4500;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+/* TEXT:  " REPEAT THE SAME THING....." */
+#h4 {
+    font-size:  1.5rem;
+    text-shadow: 1px 1px 1px white;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+/* TEXT:  " Rule......." */
+#h5 {
+    font-size:  1.5rem;
+    text-shadow: 1px 1px 1px purple;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+/* TEXT:  "Usually... " */
+#h6 {
+    font-size:  1.5rem;
+    text-shadow: 1px 1px 2px white;
+    letter-spacing: 3px;
+}
+/* BUTTON:    SEE MORE INFORMATION */
+#seeMoreInfo {
+    width: 200px;
+    height: 60px;
+    font-size: 1.1rem;
+    color: purple;
+    background-color: aqua;
+    border: 1px black solid;
+    outline: 3px red solid;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    overflow: hidden;
+}
+#seemore {
+    width: 90%;
+    /* height: auto; */
+    /* border: 2px black solid; */
+    font-family: "Indie Flower", cursive;
+    padding: 20px;
+    text-align: justify;
+}
+/* BUTTON:    CLOSE */
+#seeLess {
+    width: 200px;
+    height: 60px;
+    font-size: 1.1rem;
+    color: purple;
+    background-color: aqua;
+    border: 1px black solid;
+    outline: 3px red solid;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    overflow: hidden;
+}
+ /* DIV   PRACTICE PROBLEMS SECTION */
+#row2 {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border: 2px black solid;
+    display: block;
+    background-color: beige;
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+ /* IMAGES:   PRACTICE PROBLEMS SECTION */
+#row3, #row4, #row5 {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    margin-bottom: -30px;
+    display: block;
+    padding: 15px;
+}
+  /* IMAGE:   EXAMPLE #1 */
+#example1 {
+    width: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0px;
+}
+/* EXAMPLE PROBLEM 2 */
+#example2 {
+    width: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0px;
+}
+/* EXAMPLE PROBLEM 3 */
+#example3 {
+    width: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0px;
+}
+/* EXAMPLE PROBLEM 4 */
+#example4 {
+    width: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 0px;
+}
+
+/* INPUT: USER'S ANSWERS TO EACH PRACTICE PROBLEM */
+#answer1, #answer2, #answer3, #answer4 {
+    width: 9%;
+    height: 80px;
+    margin-right: 7.2%;
+    margin-left: 7%;
+    margin-top: -70px;
+    font-size: 2rem;
+    color: blue;
+    padding: 5px;
+    font-family: 'Amatic SC', cursive;
+    background-color: beige;
+    border: 1px black solid;
+    letter-spacing: 3px;
+    text-align: center;
+    display: inline-block;
+}
+  /* SUBMIT BUTTON:   CHECKING THE ANSWER */
+#btn1, #btn2, #btn3, #btn4 {
+    width: 150px;
+    height: 80px;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+    color: blue;
+    padding: 10px 10px;
+    font-family: 'Amatic SC', cursive;
+    background-color: beige;
+    border: 1px black solid;
+    letter-spacing: 3px;
+    text-align: center;
+    display: inline-block;
+}
+/* OUTPUT-TEXT:   IF ANSWER IS CORRECT  */
+#demo1, #demo2, #demo3, #demo4 {
+    width: 9%;
+    height: 60px;
+    margin-right: 6.6%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+    color: blue;
+    padding: 10px 10px;
+    font-family: 'Amatic SC', cursive;
+    background-color: beige;
+    border: 1px black solid;
+    letter-spacing: 3px;
+    text-align: center;
+    display: inline-block;
+}
+#review {
+    text-align: center;
+    color: lime;
+    text-shadow: 1px 1px 1px black;
+}
+footer {
+    font-size: 1rem;
+    text-align: center;
+}

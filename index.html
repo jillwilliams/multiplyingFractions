@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Caesar+Dressing|Indie+Flower|Shadows+Into+Light|Permanent+Marker|Amatic+SC|Cookie|Caveat|Kalam|Satisfy" rel="stylesheet">
+    <title>Multiplying Two Fractions</title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <div id="h2">
+    Multiplying Fractions
+    </div>
+    <div>
+        <p><span id="h3">
+            In order to multiply two fractions, mutliply straight across. <br> Meaning, multiplying the two numbers on the top gives you the answer on the top, <br> and multiplying the two numbers on the bottom gives you the answer on bottom. <br>
+            <p>
+                    (Recall: The number on the top of a fraction is called the 'numerator.' <br> The number on the bottom of a fraction is called the 'denominator.')</span>
+            
+        <!-- <p><span id="h4">
+            
+        </p> -->
+        <p><span id="h5">
+            Rule: To multiply two fractions, multiply straight across. This gives you the answer.</span>
+        </p>
+        <p ><span id="h6">
+            Usually, because of what you will learn in Algebra 1 and beyond, you will always "simplify" the answer. </span>
+        </p>
+        <p><span id="h6">
+            To simplify a fraction, divide the answer's numerator and denominator by any number that leaves no remainder. </span></p>
+
+            <button 
+                style="submit" 
+                id="seeMoreInfo" 
+                onClick="seeMore( )">
+                See More Information
+            </button>
+        <p id="seemore"></p>
+    </div>
+    <button 
+                style="submit" 
+                id="seeLess" 
+                onClick="seeLess( )">
+                CLOSE
+    </button>
+    <p id = "seemore"></p>
+<!-- EXAMPLES SECTION -->
+    <div id="row2">
+            Below are some practice problems for you to try. Type your answers into
+            the boxes,<br> then click "Check Your Answer" to see if you got it correct! Good Luck!
+        </div>
+    </div>
+
+    <div id="row3">
+        <p>
+            <img src="./images/example1.png" 
+            alt="multiplication example1" 
+            id="example1" />
+            <img src="./images/example2.png" alt="ex2" id="example2" />
+            <img src="images/example3.png" alt="ex 3" id="example3" />
+            <img src="images/example4.png" alt="ex 4" id="example4" />
+        </p>
+    </div> 
+
+    <div id="row4">
+        <p>
+            <input type="text" id="answer1">
+            <input type="text" id="answer2">
+            <input type="text" id="answer3">
+            <input type="text" id="answer4">
+        </p>
+    </div>
+    <div id="row5">
+        <button type="submit" 
+        onClick="calculate1( )" 
+        id="btn1">
+            Check Your Answer
+        </button>
+
+        <button type="submit" onClick="calculate2( )" id="btn2">
+            Check Your Answer
+        </button>
+
+        <button type="submit" onClick="calculate3( )" id="btn3">
+            Check Your Answer
+        </button>
+
+        <button type="submit" onClick="calculate4( )" id="btn4">
+            Check Your Answer
+            </button>  
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+    </div>
+    <div>
+            <p id="review">
+                In review:  To multiply two fractions. multiplying straight across. 
+                <br> Then simplify your answer if possible.
+            </p>
+    </div>
+    
+    <footer>
+        ©2019ALLTHINGSMATH     ALL RIGHTS RESERVED
+    </footer>
+    <script src="./script.js"> </script>
+</body>
+</html>
